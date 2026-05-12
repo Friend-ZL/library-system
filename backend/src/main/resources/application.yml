@@ -20,6 +20,8 @@ app:
   jwt:
     secret: library-system-secret-key-change-me-please-use-at-least-64-bytes
     expiration-minutes: 720
+  cors:
+    allowed-origins: http://localhost:5173,http://127.0.0.1:5173,http://124.222.215.96:8081
   borrow:
     default-days: 30
     max-active-count: 5
